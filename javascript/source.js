@@ -3,7 +3,6 @@ const axios = require("axios");
 const apiKey = process.env.TRELLO_API_KEY;
 const token = process.env.TRELLO_TOKEN;
 const boardId = "VXTmT8pZ";
-const username = "androkasrashvili1";
 const getListsInBoard = async () => {
   const url = `https://api.trello.com/1/boards/${boardId}/lists`;
 
